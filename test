@@ -1,0 +1,16 @@
+uses crt;
+const
+    n = 10;//строки
+    m=8;//столбцы
+var
+a: array[1..n,1..m] of integer;
+ i,j:integer;
+ begin
+randomize;
+        for i := 1 to n do
+        for j:=1 to m do
+        a[i,j] := random (9);
+for i := 1 to n do
+  for j:=1 to m do
+        if (i mod 2) = 0 then
+end.
